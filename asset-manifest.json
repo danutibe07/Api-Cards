@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/kodecamp-card/static/css/main.56794c36.css",
+    "main.css": "/kodecamp-card/static/css/main.489df6c6.css",
     "main.js": "/kodecamp-card/static/js/main.7c5f4052.js",
     "index.html": "/kodecamp-card/index.html",
-    "main.56794c36.css.map": "/kodecamp-card/static/css/main.56794c36.css.map",
+    "main.489df6c6.css.map": "/kodecamp-card/static/css/main.489df6c6.css.map",
     "main.7c5f4052.js.map": "/kodecamp-card/static/js/main.7c5f4052.js.map"
   },
   "entrypoints": [
-    "static/css/main.56794c36.css",
+    "static/css/main.489df6c6.css",
     "static/js/main.7c5f4052.js"
   ]
 }
