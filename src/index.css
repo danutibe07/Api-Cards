@@ -1,13 +1,96 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: "Quicksand";
+  color: #333;
+  box-sizing: border-box;
+}
+.home {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 100%;
+  
+}
+.navbar{
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  border-bottom: 2px solid #f2f2f2;
+  text-align: center;
+  justify-content: center;
+}
+.navbar h1{
+  color: blue;
+  text-align: center;
+  justify-content: center;
+}
+.content{
+  margin:  0 auto;
+  padding: 20px;
+}
+.card-preview{
+  flex-wrap: wrap;
+  width:  255px;
+  height: 235px;
+  position: relative;
+  overflow: hidden;
+  padding: 10px;
+  margin: 20px 0;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  border-top: 3px solid blue;
+}
+.info-1{
+  padding: 10px 0 0 15px;
+}
+.info-2{
+  color: blue;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 1rem 1rem;
+  letter-spacing: 0.5px;
+  margin-top: 0;
+  height: auto;
+  padding-top: 20px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+@media screen and (max-width: 1377px){
+  .home {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0 100px;
+  }
+} 
+@media screen and (max-width: 1060px){
+  .home {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px ;
+    padding: 0 50px;
+  }
+} 
+@media screen and (max-width: 910px){
+  .home {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px ;
+    padding: 0 50px;
+  }
+} 
+@media screen and (max-width: 630px){
+  .home {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 20px ;
+    padding: 0 50px;
+    width: fit-content;
+    margin: 0 auto;
+  }
+  .navbar{
+    text-align: center;
+    justify-content: center;
+  }
+} 
