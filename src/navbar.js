@@ -1,7 +1,7 @@
 const Navbar = () => {
     return (  
         <nav className="navbar">
-            <h1>Kodecamp Cards</h1>
+            <h1>Cards with API</h1>
         </nav>
     );
 }
